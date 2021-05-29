@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <title>AboutUs</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/image 66.png" alt="logo">
+        <p id="logoText"><a href="#">Дорожні<br>Знаки</a></p>
+        <ul class="navTop">
+            <li><a href="#">Main</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Production</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+        <div class="lang">
+            <div class="dropdown-content">
+                <a href="#">Eng</a>
+                <a href="#">Ukr</a>
+            </div>
+        </div>
+        <button class="buttonCall" onclick="openForm()">
+            <p>Contact Us</p>
+            <img src="img/Ellipse 103.png" alt="btnImg">
+            <img src="img/coolicon4.png" alt="btnIcon">
+        </button>
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <textarea type="text" placeholder="text" name="psw" required></textarea>
+
+                <button type="submit" class="btn">Sent</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+
+
+    </header>
+
+    <div class="blockAboutUsMain">
+        <h1 class="textAboutUs">About Us</h1>
+        <img class="buttonAboutMain" src="img/Rectangle 464.png">
+        <img src="img/Rectangle 456.png" alt="imgAbout">
+        <p class="textMainAbout"><a href="#">Main</a>~<a href="#">About Us</a></p>
+    </div>
+    <div class="aboutInfo">
+        <div class="textRight">
+            <p>з 2002 року виготовляє та постачає дорожні знаки та інші технічні засоби організації дорожнього руху. Все
+                нове і найкраще для безпеки на дорогах,
+                що з’являється у Європі, фірма втілює в Україні. Вже десять років
+                ми виготовляємо високоякісні європейського рівня дорожні знаки. Виробництво сертифіковане в міжнародній
+                системі якості ISO 9001:2009, маємо сертифікат відповідності на 5 років. Наші знаки встановлено
+                на магістральних автодорогах Київ-Одеса, Київ- Чоп, Київ-Харків та багатьох інших, на вулицях населених
+                пунктів всієї України. Співпрацюємо
+                з провідними українськими та іноземними шляхобудівними підприємствами.</p>
+            <p>До ЄВРО-2012 ми якісно і вчасно виконали масштабні замовлення:
+
+                – виготовили знаки для новозбудованих терміналів Бориспільського у Києві та Львівського ім. Данила
+                Галицького аеропортів, нових стадіонів «Арена-Львів» та «Донбас Арена»;
+                – виготовили і встановили дорожні знаки на реконструкцію прикордонних автодоріг Львів-Краковець,
+                Львів-Рава-Руська та Львів-Шегині;
+                – у Львові та на а/д Львів-Рава-Руська вперше реалізовано програму ознакування туристичних об’єктів.
+                Час та результати нашої роботи показали, що визначальний напрямок у нашій діяльності – висока якість
+                продукції та послуг – забезпечив нам визнання, розвиток, прихильність клієнтів і, як наслідок, успішну
+                співпрацю по всій Україні.
+                Фірма «Дорожні знаки» – активний учасник різноманітних виставок – загальнонаціональних, профільних,
+                численних семінарів та конференцій з безпеки дорожнього руху. У 2010 році ми стали переможцями
+                національного конкурсу «100 кращих товарів».
+                Колектив ТзОВ «Дорожні знаки» не випадково працює під девізом «…з нами безпечніше».
+                Ми розуміємо, що якісно зроблений, добре і правильно встановлений знак на дорозі допоможе водіям і
+                пішоходам правильно поводитись і тим самим оберегти себе і оточуючих від небезпеки, а можливо –
+                врятувати найцінніше, що маємо: життя і здоров’я! Саме в цьому співпадають інтереси виробників,
+                замовників та користувачів.
+                Запрошуємо до співпраці!</p>
+        </div>
+        <hr>
+        <h3>About Us</h3>
+        <h2 class="roadIconText">Road Signs LLC</h2>
+        <p class="textLocal">(Lviv, Ukraine)</p>
+        <img src="img/Rectangle 460.png" alt="imgAboutInfo">
+        <button href="#" class="goTo">
+            <p>Go to order</p>
+            <img src="img/Ellipse 102.png" alt="goTo">
+            <img src="img/coolicon2.png" alt="goToTwo">
+
+        </button>
+        <hr>
+    </div>
+    <div class="development">
+        <h3>Production</h3>
+        <hr>
+        <h1>Plant</h1>
+        <p id="textDevelop">Компанія «Дорожні знаки» складається з двох підрозділів: офісу, який знаходиться
+            у м.Львові (див.контакти), та виробництва, яке є розміщено у с.Черляни Городоцького району Львівської
+            області, по вулиці Польова, 34. Наступний етап – фарбування у порошковій камері, після чого отримуємо готову
+            основу для поклейки.
+            Лиця знаків виготовляємо з високоякісної світлоповертаючої плівки. Підготовка здійснюється на комп’ютері,
+            для порізки плівки застосовуємо плотер. Для надання металу відповідної форми використовується плазмова різка
+            та листогин.
+            Стандартні дорожні знаки квадратної, трикутної та круглої форми набувають привабливого вигляду за допомогою
+            подвійного загину основи, акуратного заокруглення та отворів для стоку води, одержуючи при цьому ще й запас
+            жорсткості.
+            Готові знаки проходять суворий контроль якості, адже система ISO 9001:2009 зобов’язує нас до цього.
+        </p>
+        <div class="slider">
+            <ul id="slides">
+                <li class="slide showing"><img src="img/unnamed.png" alt="slideShow"></li>
+                <li class="slide"><img src="img/imagesPart.png" alt="slideShow"></li>
+                <li class="slide">Slide 3</li>
+                <li class="slide">Slide 4</li>
+                <li class="slide">Slide 5</li>
+            </ul>
+        </div>
+        <hr id="deveBottom">
+        <hr id="scrollOne">
+        <div class="rightEllipse">
+            <img src="img/Ellipse 102.png" alt="Ellipse102">
+            <img src="img/coolicon3.png" alt="coolicon3">
+        </div>
+        <div class="leftEllipse">
+            <img src="img/Ellipse 102.png" alt="Ellipse102">
+            <img src="img/coolicon3.png" alt="coolicon3">
+        </div>
+        <h2>1/24</h2>
+    </div>
+    <div class="partners">
+        <hr>
+        <h3>Our clients</h3>
+        <h2>Headline about, with who<br> we work</h2>
+        <div class="ourPartners">
+            <ul id="slides">
+                <li class="slide showing"><img src="img/Group 1704.png" alt="slideShow"></li>
+                <li class="slide"><img src="img/unnamed.png" alt="slideShow"></li>
+                <li class="slide"><img src="img/Group 1704.png" alt="slideShow"></li>
+                <li class="slide"><img src="img/unnamed.png" alt="slideShow"></li>
+                <li class="slide"><img src="img/Group 1704.png" alt="slideShow"></li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <img src="img/image 66.png" alt="footerLogo">
+        <p id="logoText"><a href="#">Дорожні Знаки</a></p>
+        <p class="leftText">Road Signs LLC
+            Україна 79044,
+            м. Львів, вул. Околична, 18</p>
+        <img src="img/Vector.png" alt="vectorF">
+
+        <div class="bottomNav">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#">Main</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our team</a></li>
+                <li><a href="#">Production</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="footerContacts">
+            <h2>Contacts</h2>
+            <p>тел/факс: (032) 237 02 07
+                (050) 370 99 11
+                (067) 674 57 66
+
+                info@dorznaki.com.ua</p>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+    <script>
+        var slides = document.querySelectorAll('#slides .slide');
+        var currentSlide = 0;
+        var slideInterval = setInterval(nextSlide, 5000);
+
+        function nextSlide() {
+            slides[currentSlide].className = 'slide';
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].className = 'slide showing';
+        }
+    </script>
+
+
+</body>
+
+</html>
